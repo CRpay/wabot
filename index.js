@@ -9,7 +9,7 @@ const sotoy = [
 		'🍊 : 🍋 : 🔔',
 		'🔔 : 🍒 : 🍐',
 		'🔔 : 🍒 : 🍊',
-        '🍊 : 🍋 : 🔔',		
+                '🍊 : 🍋 : 🔔',		
 		'🍐 : 🍒 : 🍋',
 		'🍐 : 🍐 : 🍐',
 		'🍊 : 🍒 : 🍒',
@@ -86,7 +86,7 @@ const sleep = async (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 //*********** CUSTOMABLE ***********//
-prefix = ''
+prefix = '.'
 hit_today = []
 blocked = []
 fake = '- 𝐹𝑒𝑙𝑖𝑥𝑐𝑟𝑎𝑐𝑘 𝐵𝑜𝑡⛥ -'
@@ -187,12 +187,6 @@ async function starts() {
 ┗━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━
 ┃   「 *_BIENVENIDO_* 」
-┗━━━━━━━━━━━━━━━━━
-┏━━━━━━━━━━━━━━━━━
-┠⊷️ *Suscríbete*:
-┠⊷️*http://bit.ly/2ZUH2jP
-┠⊷️ *Grupo Oficial*:
-┠⊷️ *http://bit.ly/3hpkba4
 ┗━━━━━━━━━━━━━━━━━
 ┏━━━━━━━━━━━━━━━━━
 ┠⊷️「 *DESCRIPCIÓN* 」
@@ -309,7 +303,7 @@ FxBot.on('CB:action,,call', async json => {
 			
 
 			mess = {
-				wait: ' Soy lenta, espera T-T ',
+				wait: ' awante compa ',
 				nsfwoff: '「 ❗ 」La Funcion De Nsfw No Está Activa!',
 				success: '✔️ Listooo ✔️',
 				error: {
@@ -547,7 +541,7 @@ const sendMediaURL = async(to, url, text="", mids=[]) =>{
 ├─────────────────❏ 
 │ ❍➣ Prefijo:「 ${prefix} 」
 ├─────────────────❏ 
-│ ❍➣ Creador: Felixcrack 409
+│ ❍➣ Creador: Felixcrack 409, EDITADO POR PAY
 ├─────────────────❏ 
 │ ❍➣ Conección: BaiLeys
 ├─────────────────❏ 
@@ -558,9 +552,6 @@ const sendMediaURL = async(to, url, text="", mids=[]) =>{
 │ ❍➣ ${totalchat.length}
 ├─────────────────❏ 
 │ ❍➣ Modo: Encendido
-├─────────────────❏ 
-│ ❍➣ Grupo Oficial
-│ ❍➣ http://bit.ly/Felixcrack-GRUPO
 ╰─────────────────❏  
 ╭───❏ 𝗖𝗥𝗘𝗔𝗥 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦
 │⊷️ ${f}${prefix}sticker${f}
@@ -592,7 +583,7 @@ const sendMediaURL = async(to, url, text="", mids=[]) =>{
 │⊷️ ${f}${prefix}nsfw 1/0
 │⊷️ ${f}${prefix}antilink 1/0
 ╰───❏ 
-╭───❏ 𝗠𝗘𝗡𝗨 𝗗𝗘𝗟 𝗗𝗨𝗘𝗡̃𝗢
+╭───❏ 𝗠𝗘𝗡𝗨 PARA PAY
 │⊷️ ${f}${prefix}self${f}
 │⊷️ ${f}${prefix}public${f}
 │⊷️ ${f}${prefix}mute${f}
@@ -632,7 +623,7 @@ const sendMediaURL = async(to, url, text="", mids=[]) =>{
 │⊷️ ${f}${prefix}upswimg${f}
 │⊷️ ${f}${prefix}upswvideo${f}
 ╰───❏ 
-╭───❏ 𝗚𝗥𝗨𝗣𝗢 𝗠𝗘𝗡𝗨
+╭───❏  𝗠𝗘𝗡𝗨 PARA LOS ADMINS DEL 𝗚𝗥𝗨𝗣𝗢
 │⊷️ ${f}${prefix}linkgroup${f}
 │⊷️ ${f}${prefix}group cerrar/abrir${f}
 │⊷️ ${f}${prefix}add 6281xxx${f}
@@ -670,13 +661,13 @@ FxBot.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
      break
   //********** SELF&PUBLIC **********//
 			  case 'self':
-			  if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por mi 🌚🤙🏼*')
+			  if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por PAY🏼*')
 			    public = false
 			    FxBot.sendMessage(from, `\`\`\`Status : SELF\`\`\``, text,{quoted :freply})
 			    break
 			    
 			  case 'public':
-			    if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por mi 🌚🤙🏼*')
+			    if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por PAY 🏼*')
 			    public = true
 			    FxBot.sendMessage(from, `\`\`\`Status : PUBLIC\`\`\``, text,{quoted :freply})
 			    break
@@ -688,13 +679,13 @@ FxBot.sendMessage(from, wew, image, { quoted: mek, caption: lzain })
 					FxBot.sendMessage(from, wew, image, { caption: '*ᎮᎥᏒᎧᎮᎧᏕ👌*\n\n'+ js, quoted: mek })
 break  
 			    case 'mute':
-                if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por mi 🌚🤙🏼*')
+                if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por PAY🏼*')
                 FxBot.modifyChat(from, ChatModification.mute, 24*60*60*1000)
                 reply('*Muteados putos ÙwÚ*')
                 console.log('succes mute chat = ' + from)
                 break
             case 'unmute':
-                if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por mi 🌚🤙🏼*')
+                if (!mek.key.fromMe) return reply('*Este comandó solo puede ser usado por PAY*')
                 FxBot.modifyChat(from, ChatModification.unmute)
                 reply('*Ù.Ú sus mensajes me caen denuevo*')
                 console.log('succes unmute chat = ' + from)
@@ -812,10 +803,8 @@ if ((isMedia && !mek.message.videoMessage || isQuotedImage || isQuotedVideo ) &&
             reply('Responde a una imagen o un video')
             }
             break
-case 'grupo':
-					case 'felixgrupo':
-buffer = await getBuffer(`https://telegra.ph/file/a3d623676c5a237f4ac86.jpg`)
-					FxBot.sendMessage(from, buffer, image, {quoted: mek, caption: 'Link del grupo Felixcrack BOT OFC, Todos son bienvenidos!! 🤗\n-https://chat.whatsapp.com/DAheuNgcvCj92UNcZFTKEo', sendEphemeral: true, contextInfo: { forwardingScore: 1000, isForwarded: true }})
+					{}
+					
 break
                 
                 case 'shutdown':
@@ -1341,7 +1330,7 @@ uptime = process.uptime()
 const timestampi = speed();
 const latensip = speed() - timestampi
 			             anjink =`◪ Encendido
-├ *Nombre : 𝐹𝑒𝑙𝑖𝑥𝑐𝑟𝑎𝑐𝑘 𝐵𝑜𝑡⛥*_
+├ *Nombre : FELI 𝐵𝑜𝑡⛥*_
 ├ *Runtime :*
 ├  ${kyun(uptime)}
 ├ *Speed :*
